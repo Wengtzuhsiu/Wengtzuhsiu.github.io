@@ -1,0 +1,38 @@
+
+
+.navbar-nav .nav-link {
+    color: aliceblue;
+}
+.navbar-nav .nav-item:first-child .nav-link {
+    color: aliceblue;
+}
+.card {
+    transition: all .4s; /* 動畫漸變 */
+    border-radius: 45px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #ddd; /* 往右移5px、下移5px、模糊5px、陰影的顏色 */
+    transform: translate(-5px, -5px) rotate(-1deg); /* 往左移5px、上移5px、逆時針旋轉1度 */
+}
+
+.btn-primary{
+    background-color: rgb(124, 124, 124,0);
+    color: rgb(164, 164, 164);
+    border: none;
+    border-radius: 45px;
+}
+
+.btn-primary:hover{
+    background-color:rgb(96, 96, 96);
+    color: aliceblue;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.large-text{
+    font-size: 23px;
+    font-weight: bold;
+}
