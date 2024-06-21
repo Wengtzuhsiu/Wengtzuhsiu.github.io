@@ -99,10 +99,11 @@
 }
 
 .bold-text {
-    margin-bottom: -10px;
-    font-size: 53px;
+    margin-bottom: -5px;
+    font-size: 48px;
     font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 400;
 }
 
 .large-text {
