@@ -1,38 +1,111 @@
+@keyframes typing {
+    from {
+        width: 3em
+    }
+}
 
+@keyframes caret {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+.btn-mary {
+    margin-left: -0.7em;
+    color: gray;
+    font: bold 18px Quicksand;
+    /* 	width: 8.25em; */
+    width: 14em;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: .1em solid; */
+    animation: typing 3.5s steps(14) infinite,
+        caret .5s steps(1) infinite;
+}
+
+.btn-mary:hover {
+    transition: all .2s;
+    color: black;
+}
+
+.dot {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: -20px;
+    height: 14px;
+    width: 14px;
+    background-color: rgb(255, 255, 255, 0);
+
+}
+
+
+.slogan {
+    letter-spacing: 1px;
+    font: bold 17px;
+}
 
 .navbar-nav .nav-link {
     color: aliceblue;
+    opacity: 100%;
+    transition: all .5s;
 }
+
 .navbar-nav .nav-item:first-child .nav-link {
     color: aliceblue;
 }
+
+.navbar {
+    opacity: 90%;
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 60%;
+}
+
+.navbar-brand {
+    opacity: 100%;
+    transition: all .5s;
+}
+.navbar-brand:hover {
+    opacity: 60%;
+}
+
 .card {
-    transition: all .4s; /* 動畫漸變 */
-    border-radius: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: all .6s;
+    /* 動畫漸變 */
+    border-radius: 6px;
 }
 
 .card:hover {
-    box-shadow: 5px 5px 5px #ddd; /* 往右移5px、下移5px、模糊5px、陰影的顏色 */
-    transform: translate(-5px, -5px) rotate(-1deg); /* 往左移5px、上移5px、逆時針旋轉1度 */
+    box-shadow: 5px 5px 5px #ddd;
+    /* 往右移5px、下移5px、模糊5px、陰影的顏色 */
+    transform: translate(0px, -10px) rotate(-1deg);
+    /* 往左移5px、上移5px、逆時針旋轉1度 */
 }
 
-.btn-primary{
-    background-color: rgb(124, 124, 124,0);
+
+.btn-primary {
+    background-color: rgb(124, 124, 124, 0);
     color: rgb(164, 164, 164);
     border: none;
     border-radius: 45px;
 }
 
-.btn-primary:hover{
-    background-color:rgb(96, 96, 96);
+.btn-primary:hover {
+    background-color: rgb(96, 96, 96);
     color: aliceblue;
 }
 
-.bold-text{
-    font-weight: bold;
+.bold-text {
+    margin-bottom: -10px;
+    font-size: 53px;
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.large-text{
-    font-size: 23px;
-    font-weight: bold;
+.large-text {
+    font: bold 23px Consolas, Monaco, monospace;
 }
+

@@ -1,0 +1,46 @@
+.card-title {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 215px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0%;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: .6;}
+}
+.large-text{
+    font-size: 28px;
+    margin-top: 320px;
+
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+.sketching1 {
+    margin-left: -12px;
+    margin-bottom: 50px;
+
+}
+
+.sketching2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: -12px;
+   
+}
+.sketching4 {
+    margin-top: 60px;
+box-shadow: 5px 5px 5px #777777;
+}
