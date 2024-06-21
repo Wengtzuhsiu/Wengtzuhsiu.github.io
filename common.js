@@ -16,7 +16,7 @@ gsap.to(".dot", {
         // 捲到這個開始動
         x: 0, 
         rotation: 0,
-        y: 225,
+        y: 200,
         duration: 3.5,
         'box-shadow': '5px 5px 5px #a9a9a900',
     
